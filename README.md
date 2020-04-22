@@ -2,6 +2,7 @@
   A project that shows how behind you are in latest scrum What you had proposed and what you did have achieved till last date of scrum.
   This project has been developed by using google sheet api and python libraries.
        
+       screenshots to getting api-https://drive.google.com/open?id=1EoNWGAKTKjeJgbKCW5L49hVCNqIjDLz4
        project demo-https://youtu.be/54YZnZMFZBk
               
 1-> For using it on your local machine fill the list contacts with emails of members as in sheet sorted order. Make sure that it is as sorted as in google spreadsheet names. This code does not sort contact list because names are in sorted order but emails may not be.
@@ -21,5 +22,8 @@ So fill this list according to the name.
 7-> You will get a json file put that name in line 26 you can rename it.
 
 8->Put sheet name in line 30.
+
+This procedure is just for checking and debugging code on your local machine that whatever you required you can achieve.
+Finally you have to deploy it fot it's action
 
 Thankyou,
