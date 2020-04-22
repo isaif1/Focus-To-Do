@@ -11,9 +11,6 @@ from email.message import EmailMessage
 from datetime import datetime
 
 
-
-
-
 def scrumcall(start):    
     #EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
     #EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
@@ -29,26 +26,12 @@ def scrumcall(start):
 
     sheet = client.open("sprint sheet").sheet1  
 
-    #data = sheet.get_all_records()  
-    #print(data)
-    #row = sheet.row_values(3)  
-    #col = sheet.col_values(3)  
-    #cell = sheet.cell(50,4).value  
-    #print(cell)
-    #This is for calculating sum of proposed
-
     def find_sum(t): 
         return sum(map(int,re.findall('\d+',t))) 
-    #print(sheet.cell(1,4).value)
-    # numrows = sheet.row_count 
-    # print(numrows)
     numcols = sheet.col_count
-    #print(numcols)  
     count=4
     per=0
     while(count<numcols):
-        #print(per)
-        #print(sheet.cell(1,count).value)
         msg = EmailMessage()
         msg1=EmailMessage()
         msg2=EmailMessage()
@@ -83,11 +66,6 @@ def scrumcall(start):
                 smtp.send_message(msg)               
 
 start=50   
-
-#schedule.every(5).minutes.do(scrumcall,start)
-#schedule.every().monday.at("00:59").do(scrumcall,start=start+3)
-
-
 if datetime.today().strftime('%A')=='Monday':    
     schedule.every().monday.at("14:50").do(scrumcall,start)
     start+=14
