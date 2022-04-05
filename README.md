@@ -17,7 +17,7 @@ So fill this list according to the name.
 
 5-> Now you can put your time and day in week when you want to notify team members from line 102 to 112. I have put their monday and time according to my testing time. You have to put current time and day when you are testing.
 
-6-> Now you have to request for Google Sheet api and google drive api(to update sheet) using this youtube link https://www.youtube.com/watch?v=cnPlKLEGR7E&t=311s  or you can find screenshot of this process in repository.
+6-> Now you have to request for Google Sheet api and google drive api(to update sheet) using screenshot of this process in repository.
 
 7-> You will get a json file put that name in line 26 you can rename it.
 
