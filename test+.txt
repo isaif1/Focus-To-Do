@@ -3,6 +3,7 @@ members of different consecutive scrums. This is just for testing purose and for
 your better understanding about this project.
 These mails will be send to different members that are in list.
 
+this youtube link https://www.youtube.com/watch?v=cnPlKLEGR7E&t=311s  or you can find 
 
 
 Subject: Hey! Arjun your Monday scrum is here!
